@@ -1,4 +1,10 @@
 
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 50px;
+}
+
 h1 {
   text-align: center;
 }
@@ -23,7 +29,8 @@ form input {
 }
 .todo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 button {
@@ -106,4 +113,8 @@ input[type='text'] { font-size: 20px; font-family: monospace; }
   to {
     transform: rotate(360deg);
   }
+}
+
+.editButton {
+  margin-right: 10px;
 }
